@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="projectSet1.TestKA003">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- projectSet1.TestKA003 -->
+      <class name="projectSet2.TestMultipleLoginKA003">
+        <methods>
+          <include name="mutlitpleLogin"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- projectSet2.TestMultipleLoginKA003 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
